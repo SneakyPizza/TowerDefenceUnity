@@ -3,20 +3,23 @@ using System.Collections;
 using System.Collections.Generic;
 
 
-public class Turretshoot : MonoBehaviour {
+public class Turretshoot : MonoBehaviour 
+{
 	private bool looking;
 	private GameObject target;
 	public List<GameObject> enemiesInRange = new List<GameObject>(); 
 	public float timer;
-	void Start () {
-	//	enemies = GameObject.Find("EnemyLeft");
+
+	void Start () 
+	{
+
 	}
-	
-	// Update is called once per frame
-	void FixedUpdate () {
+	void FixedUpdate () 
+	{
 		timer += 1 * Time.deltaTime ;
 		//Debug.Log(timer);
-		if (target) {
+		if (target) 
+		{
 			transform.LookAt(target.transform.position);
 		}
 		//		vector3 targetdir = new vector3(target.position.x - transform.position.x, 0f,
@@ -26,23 +29,22 @@ public class Turretshoot : MonoBehaviour {
 		//		 transform.Rotation(desiredRotation)
 	}
 
-	void OnTriggerEnter (Collider col) {
-	
-
-
+	void OnTriggerEnter (Collider col) 
+	{
 		if(col.gameObject.name == "EnemyLeft")
 		{
 			enemiesInRange.Add(col.gameObject);
-
-			}
 		}
+	}
 
-	void OnTriggerStay (Collider col) {
+	void OnTriggerStay (Collider col) 
+	{
 		if(col.gameObject.name == "EnemyLeft")
 		{
 			target = enemiesInRange[0];
 			looking = true;
-			if (timer > 5 && looking == true){
+			if (timer > 5 && looking == true)
+			{
 				shooting();
 				target = enemiesInRange[0];
 			}
@@ -50,15 +52,17 @@ public class Turretshoot : MonoBehaviour {
 
 
 	}
-	void OnTriggerExit (Collider col){
+	void OnTriggerExit (Collider col)
+	{
 		if(enemiesInRange.Contains(col.gameObject)) 
 		{
 			enemiesInRange.Remove(col.gameObject);
 		}
 	}
 
-	void shooting(){
-		Debug.log("Bullet");
+	void shooting()
+	{
+		Debug.Log("kaas");
 		timer = 0;
 		Instantiate(Resources.Load("Bullet"), transform.position, transform.rotation);
 	}
