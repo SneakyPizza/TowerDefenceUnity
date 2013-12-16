@@ -1,8 +1,28 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
+<<<<<<< HEAD
   <MonoDevelop.Ide.Workbench ActiveDocument="..\..\..\..\Desktop\School\2e klas\UnityBoy\Unity Projecten\PathFinding\Assets\EnemyMovement.cs">
     <Files>
       <File FileName="..\..\..\..\Desktop\School\2e klas\UnityBoy\Unity Projecten\PathFinding\Assets\EnemyMovement.cs" Line="24" Column="4" />
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\BuildingTower.cs">
+    <Files>
+      <File FileName="Assets\Scripts\BuildingTower.cs" Line="12" Column="28" />
+=======
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Spawner.cs">
+    <Files>
+      <File FileName="Assets\Scripts\Turretshoot.cs" Line="17" Column="22" />
+      <File FileName="Assets\Scripts\Spawner.cs" Line="34" Column="18" />
+>>>>>>> 7f4ed520e1445c82aee3600058c7fdb9cb71bca1
+=======
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Spawner.cs">
+    <Files>
+      <File FileName="Assets\Scripts\Turretshoot.cs" Line="17" Column="22" />
+      <File FileName="Assets\Scripts\Spawner.cs" Line="34" Column="18" />
+>>>>>>> 7f4ed520e1445c82aee3600058c7fdb9cb71bca1
+>>>>>>> 38a278de1416303ce25bace1568e66aaf85ac397
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
