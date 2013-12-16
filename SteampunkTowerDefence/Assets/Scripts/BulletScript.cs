@@ -2,12 +2,10 @@
 using System.Collections;
 
 public class BulletScript : MonoBehaviour {
-	GameObject enemies;
-	public Turretshoot turretscript;
+	private Turretshoot turretscript;
 	// Use this for initialization
 	void Start () {
-		turretscript = GetComponent<Turretshoot>();
-		enemies = GameObject.Find("EnemyLeft");
+		Turretshoot	turretscript = (Turretshoot)this.GetComponent(typeof(Turretshoot));
 	}
 	
 	// Update is called once per frame

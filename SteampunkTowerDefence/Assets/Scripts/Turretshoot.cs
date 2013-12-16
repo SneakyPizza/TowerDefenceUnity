@@ -58,7 +58,7 @@ public class Turretshoot : MonoBehaviour {
 	}
 
 	void shooting(){
-		Debug.log("Bullet");
+		//Debug.log("boop");
 		timer = 0;
 		Instantiate(Resources.Load("Bullet"), transform.position, transform.rotation);
 	}

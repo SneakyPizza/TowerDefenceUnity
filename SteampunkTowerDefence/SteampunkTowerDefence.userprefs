@@ -1,13 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Turretshoot.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\BuildingTower.cs">
     <Files>
-      <File FileName="Assets\Scripts\BulletScript.cs" Line="11" Column="3" />
-      <File FileName="Assets\Scripts\EnemyLeftMove.cs" Line="1" Column="1" />
-      <File FileName="..\..\2ejaarschool\Zombie Game\Assets\ZombieScript.cs" Line="38" Column="30" />
-      <File FileName="Assets\Scripts\Turretshoot.cs" Line="64" Column="3" />
-      <File FileName="Assets\Scripts\BulletScript.cs" Line="23" Column="28" />
-      <File FileName="Assets\Scripts\Spawner.cs" Line="12" Column="32" />
+      <File FileName="Assets\Scripts\BuildingTower.cs" Line="12" Column="28" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

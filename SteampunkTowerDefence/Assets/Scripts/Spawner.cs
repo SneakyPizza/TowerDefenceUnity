@@ -8,7 +8,7 @@ private	bool wave1 = true;
 private	bool wave2;
 private	bool wave3;
 private	bool wave4;
-	private Vector3 enemypos = new Vector3(0,0,0);
+	private Vector3 enemypos = new Vector3(-10,0,0);
 	// Use this for initialization
 	void Start () {
 		//leftenemies = GameObject.FindGameObjectsWithTag("LeftEnemys");
