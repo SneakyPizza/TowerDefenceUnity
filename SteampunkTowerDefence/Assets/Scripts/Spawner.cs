@@ -4,6 +4,17 @@ using System.Collections;
 public class Spawner : MonoBehaviour 
 {
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+public GameObject leftenemies;
+private	bool wave1 = true;
+private	bool wave2;
+private	bool wave3;
+private	bool wave4;
+	private Vector3 enemypos = new Vector3(-10,0,0);
+=======
+=======
+>>>>>>> 7f4ed520e1445c82aee3600058c7fdb9cb71bca1
 	public GameObject leftenemies;
 	private	bool wave1 = true;
 	private	bool wave2 = false;
@@ -11,6 +22,7 @@ public class Spawner : MonoBehaviour
 	private	bool wave4;
 	public float timer;
 	private Vector3 enemypos = new Vector3(0,0,0);
+>>>>>>> 7f4ed520e1445c82aee3600058c7fdb9cb71bca1
 	// Use this for initialization
 	void Start () 
 	{

@@ -60,9 +60,20 @@ public class Turretshoot : MonoBehaviour
 		}
 	}
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+	void shooting(){
+		//Debug.log("boop");
+=======
 	void shooting()
 	{
 		Debug.Log("kaas");
+>>>>>>> 7f4ed520e1445c82aee3600058c7fdb9cb71bca1
+=======
+	void shooting()
+	{
+		Debug.Log("kaas");
+>>>>>>> 7f4ed520e1445c82aee3600058c7fdb9cb71bca1
 		timer = 0;
 		Instantiate(Resources.Load("Bullet"), transform.position, transform.rotation);
 	}
